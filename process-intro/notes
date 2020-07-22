@@ -1,0 +1,15 @@
+sz -> size
+pgdir -> page table (translation bt imaginary world & real world memory)
+kstack -> 
+
+states: 
+EMBRYO: no longer unused, but not fully ready to run yet (currnetly being built)
+RUNNABLE: ready to run 
+RUNNING: using the CPU at the moment 
+ZOMBIE: program is over / done but has not been cleaned up yet (used to be alive, but can't throw it away yet)
+UNUSED: 
+SLEEPING: 
+
+** a limited number of transitions possible among the 6 :) 
+
+** 

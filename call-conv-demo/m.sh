@@ -1,0 +1,1 @@
+gcc -Wall -Werror -m32 prog.c --std=gnu90 functions.s -o prog
